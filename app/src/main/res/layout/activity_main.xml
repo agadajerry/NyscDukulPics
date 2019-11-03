@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/custom_shape"
+        android:contentDescription="@string/welcome"
+        android:src="@drawable/gdss"
+        android:text="@string/nysc_dukul" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="@string/jerrySoft"
+        android:textColor="@color/whiteColor"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
